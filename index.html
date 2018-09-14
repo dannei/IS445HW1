@@ -5,27 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>IS445 HW1</title>
+    <link rel="stylesheet" href="style.css">
 <style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-hr{
-    border-color:forestgreen;
-}
 </style>
 </head>
 <body>
-    <h1 style="text-align:center">Le, Danny</h1>
-    <hr style="background-color:darkgreen;">
+    <h1 class="name">Le, Danny</h1>
     <p style="text-align:center"><i> Welcome to IS445 Homework 1</i></p>
     <img src="DC.jpeg" alt="DC" width="350" height="450">
     <main>
         <div class="aboutme">
             <p style="text-align: center">About Me</p>
             <p><u><b><i>Education</i></b></u></p>
-            <p>2019,Bachelor of Science: Infomation System, CSULB</p>
+            <p>2019,Bachelor of Science: Information System, CSULB</p>
             <p><u><b><i>Skills</i></b></u></p>
             <ol>
                 <li>Python</li>
@@ -36,7 +28,23 @@ hr{
         </div>
         <div class="contactme">
             <p style="text-align:center">Contact Me</p>
-            
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                  <label for="mail">E-mail:</label>
+                  <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                  <div class="button">
+                    <button type="submit">Send your message</button>
+                </div>
+              </form>
+                
         </div>
     </main>
 
