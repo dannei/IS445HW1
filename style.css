@@ -5,18 +5,12 @@
   margin-left: auto;
   margin-right: auto;
 }
-.contactme {
-    width: 50%;
-    float: right;
+td {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     border:3px solid red;
-    height: 310px;
-}
-.aboutme {
-    width: 49%;
-    float: left;
-    border:3px solid red;
-}
-
+    padding: 10px;
 img {
     display: block;
     margin-left: auto;
